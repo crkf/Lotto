@@ -326,7 +326,7 @@ public class LottoGUI extends javax.swing.JFrame {
 
         richtige = LottoGenerator.vergleich(tipp, zahlen);
 
-        jTextArea1.append("\n\nAnzahl der richtig getippten: " + richtige);
+        jTextArea1.append("\n\nAnzahl der richtig Getippten: " + richtige);
 
         if (cheat) {
             LottoGenerator.pcTipp(zahlen);
